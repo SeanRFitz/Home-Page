@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto');
+@import 'bootstrap';
+
+.container {
+	width: 350px;
+	margin: 100px auto;
+	padding: 20px;
+	background: black;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 40px;
+	text-align: center;
+}
+
+body {
+	background: url("chicago-river.jpeg"); 
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	line-height: 1.5;
+	color: white;
+}
+
+h1 {
+	font-family: 'Roboto', Helvetica;
+	font-weight: 50;
+	font-size: 60px;
+}
+
+p {
+	font-family: 'PT Serif', serif;
+	font-weight: 200;
+	font-size: 16px;
+}
